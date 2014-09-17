@@ -1,0 +1,35 @@
+SEQ
+1	0.1	197.0	120.0	142.86
+2	10.0	298.0	120.0	333.3
+3	0.0	200.0	55.0	0.63
+4	0.0	299.0	60.0	1.098
+TEM
+1->1	1	1	20.0	1.0	0.33	0.76	GC
+2->3	2	3	20.0	1.0	0.5	0.33	TG
+1->4	1	4	20.0	1.0	0.5	0.65	GG
+2->2	2	2	20.0	1.0	0.43	0.78	TT
+INHIB
+4	2->2	2	2
+3	1->1	1	1
+INPUTS
+PARAMS
+absprec	1.0E-6
+relprec	1.0E-6
+inhfact	3.0
+inhdang	0.5
+diplrat	0.2
+exokmib	150.0
+exokmsi	440.0
+exokmtm	40.0
+exovm	300.0
+kduplex	0.06
+nickkm	30.0
+nickvm	80.0
+maxtime	1000
+polkm	80.0
+polkmbo	5.5
+polvm	1050.0
+selfsta	1.0E-10
+toeleft	0.0020
+toeright	0.01
+dangle	true
